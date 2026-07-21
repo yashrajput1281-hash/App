@@ -11,3 +11,9 @@ workflows:
 
     artifacts:
       - app/build/outputs/**/*.apk
+      scripts:
+  - name: Set permissions
+    working_directory: android
+    script: |
+      chmod +x gradlew
+      
