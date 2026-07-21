@@ -16,4 +16,6 @@ workflows:
     working_directory: android
     script: |
       chmod +x gradlew
+      chmod +x android/gradlew
+      
       
